@@ -68,3 +68,5 @@ testCases.forEach((testCase) => {
     console.log(`Input: ${testCase.input}\nExpected: ${testCase.expected}\nResult: ${result}\nPass: ${pass}\n`);
     }
 );
+
+// Note: In HackerRank, replace function call in main with process.stdout.write(plusMinus(arr));
